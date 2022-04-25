@@ -10,5 +10,10 @@ public class PlayerCollider : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+
+        if (other.tag=="Wall")
+        {
+            Destroy(gameObject);
+        }
     }
 }
