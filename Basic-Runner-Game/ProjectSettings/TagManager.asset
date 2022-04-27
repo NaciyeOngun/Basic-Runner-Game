@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Play
   - Game
+  - EndGame
   layers:
   - Default
   - TransparentFX

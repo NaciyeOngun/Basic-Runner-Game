@@ -15,5 +15,10 @@ public class PlayerCollider : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if (other.tag=="EndGame")
+        {
+            Destroy(gameObject);
+        }
     }
 }
